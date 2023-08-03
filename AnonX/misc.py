@@ -64,7 +64,7 @@ def sudo():
     if sudoers:
         for x in sudoers:
             SUDOERS.add(x)
-    LOGGER(__name__).info(f"Sudo Users Loaded Successfully.")
+    LOGGER(__name__).info(f" ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Sudo Users Loaded Successfully.")
 
 
 def heroku():
@@ -74,7 +74,7 @@ def heroku():
             try:
                 Heroku = heroku3.from_key(config.HEROKU_API_KEY)
                 HAPP = Heroku.app(config.HEROKU_APP_NAME)
-                LOGGER(__name__).info(f"Heroku App Configured Successfully.")
+                LOGGER(__name__).info(f"𝐇𝐄𝐑𝐎𝐊𝐔 𝐀𝐏𝐏 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐄𝐃 𝐒𝐔𝐒𝐒𝐂𝐄𝐅𝐔𝐋𝐋𝐘 𝐍𝐎𝐖 𝐃𝐑𝐎𝐏 𝐘𝐎𝐔𝐑 𝐆𝐅 𝐍𝐔𝐃𝐄𝐒 𝐓𝐎 🦋⃟ ᴠͥɪͣᴘͫ 🇴 🇽 𝐘 𝐆 𝐄 𝐍⃝⃝⃪⃕🥀🦋͜͡•─⃛͢.")
             except BaseException:
                 LOGGER(__name__).warning(
                     f"Please make sure your Heroku API Key and Your App name are configured correctly in the heroku."
