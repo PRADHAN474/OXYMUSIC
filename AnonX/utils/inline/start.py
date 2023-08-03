@@ -15,11 +15,11 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝐇𝐄𝐋𝐏",
+                text="𝙷𝚎𝚕𝙿",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒", callback_data="settings_helper"
+                text="𝚂𝚎𝚝𝚝𝚒𝚗𝚐𝚂", callback_data="settings_helper"
             ),
         ],
      ]
@@ -36,20 +36,20 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝐇𝐄𝐋𝐏", callback_data="settings_back_helper"
+                text="𝙷𝚎𝚕𝙿", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✨", url=config.SUPPORT_GROUP
+                text="✨ 𝚂𝚞𝚙𝚙𝚘𝚛𝚃 ✨", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥀 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🥀", user_id=OWNER
+                text="🥀 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚁 🥀", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="❄ 𝐎𝐗𝐘𝐆𝐄𝐍 𝐑𝐎𝐁𝐎𝐓 ❄", url="https://t.me/OXYGENMUSIC_BOT"
+                text="❄ 𝙾𝚡𝚢𝚐𝚎𝙽 𝚁𝚘𝚋𝚘𝚃 ❄", url="https://t.me/OXYGENMUSIC_BOT"
             )
         ],
      ]
