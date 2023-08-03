@@ -47,7 +47,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("AnonX.plugins." + all_module)
     LOGGER("AnonX.plugins").info(
-        "Necessary Modules Imported Successfully."
+        "Necessary ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Modules Imported Successfully."
     )
     await userbot.start()
     await Anon.start()
